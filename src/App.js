@@ -1,7 +1,10 @@
-import Spline from '@splinetool/react-spline';
+import React from "react";
+import socialWeb from "./components/3dBG/socialWeb";
 
 export default function App() {
   return (
-    <Spline scene="https://prod.spline.design/6RhseRSW-hQNARGX/scene.splinecode" />
+    <>
+      <socialWeb />
+    </>
   );
 }
